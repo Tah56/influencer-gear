@@ -17,6 +17,31 @@
     display: flex;
 }
 
+.text-end{
+    text-align: end;
+    color: rgba(224, 44, 109, 0.87);
+    cursor: pointer;
+}
+.font{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #18191F;
+    margin: 16px 0;
+}
+.font-price{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+    
+}
+
+.font-description{
+    font-size: .87rem;
+    font-weight: bold;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    color: #787885;
+}
+
 .primary{
     color: #3a3a3a;
 }
@@ -130,4 +155,42 @@ nav{
 
 .sponser-container img{
     width: 100%;
+}
+
+
+main{
+    padding: 100px 0;
+}
+
+.product-container{
+    max-width: 1047px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tittle{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.product-card{
+    width: 329px;
+    padding: 17px 15px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-align: start;
+    cursor: pointer;
+    transition: all .5s ease-in-out ;
+}
+
+.product-card:hover{
+    transform: scale(1.1);
 }
