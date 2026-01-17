@@ -54,6 +54,7 @@
 .width{
     max-width: 1200px;
 }
+
 .primary-btn{
     padding: 10px 24px;
     background-color: #E02C6D;
@@ -166,6 +167,7 @@ main{
     max-width: 1047px;
     margin: 0 auto;
     text-align: center;
+    border: 1px solid cyan;
 }
 
 .tittle{
@@ -182,8 +184,8 @@ main{
 }
 
 .product-card{
-    width: 329px;
-    padding: 17px 15px;
+    width: 328px;
+    padding: 17px 14px;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     text-align: start;
@@ -193,4 +195,29 @@ main{
 
 .product-card:hover{
     transform: scale(1.1);
+}
+
+
+.featured-container{
+    max-width: 1110px;
+    margin: 0 auto; 
+    border: 1px solid red;
+    gap: 96px;
+    align-items: center;
+}
+
+.featured-description h2{
+    font-size: 2.37rem;
+    color: #0A0826;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.featured-description p{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 28px;
+    color: #6C6C6C;    
+    margin-bottom: 16px;
 }
